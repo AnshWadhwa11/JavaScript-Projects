@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 500px;
+    background-image: linear-gradient(to bottom right,#5899E2,lightblue);
+    border-radius: 10px;
+    margin: 4% auto;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+.search input{
+    font-size: larger;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 280px;
+    padding: 20px;
+}
+.search button{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.search button img{
+    width: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.main img{
+    width: 210px;
+}
+.text{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+}
+.humidity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detailtext{
+    margin: 10px;
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 0.8cm;
+}
+.humidity img{
+width: 60px;
+}
+.wind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wind img{
+    width: 60px;
+}
+.weather{
+    display: none;
+}
+.errormeassage{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    display: none;
+}
